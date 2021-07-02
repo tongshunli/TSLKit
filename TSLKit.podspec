@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TSLKit"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of TSLKit."
   spec.description  =  "UI封装"
   spec.homepage     = "https://github.com/tongshunli/TSLKit"
