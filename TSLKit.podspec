@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TSLKit"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of TSLKit."
   spec.description  =  "UI封装"
   spec.homepage     = "https://github.com/tongshunli/TSLKit"
@@ -22,5 +22,5 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
   spec.public_header_files = "TSLKit/*.h"
   spec.requires_arc = true
-
+# pod trunk push TSLKit.podspec --allow-warnings
 end
