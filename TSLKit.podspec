@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TSLKit"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "A short description of TSLKit."
   spec.description  =  "UI封装"
   spec.homepage     = "https://github.com/tongshunli/TSLKit"
@@ -18,9 +18,5 @@ Pod::Spec.new do |spec|
   spec.author       = { "tongshunli" => "13466621196@163.com" }
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/tongshunli/TSLKit.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "TSLKit/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-  spec.public_header_files = "TSLKit/*.h"
-  spec.requires_arc = true
-
+  spec.source_files  = "Classes", "TSLKit/**/*.{h,m}"
 end

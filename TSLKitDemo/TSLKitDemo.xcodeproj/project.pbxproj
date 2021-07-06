@@ -14,7 +14,7 @@
 		AD0624D0268EABFD00CC24C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0624CF268EABFD00CC24C0 /* Assets.xcassets */; };
 		AD0624D3268EABFD00CC24C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0624D1268EABFD00CC24C0 /* LaunchScreen.storyboard */; };
 		AD0624D6268EABFD00CC24C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0624D5268EABFD00CC24C0 /* main.m */; };
-		AD0624E1268EDD1500CC24C0 /* TSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0624E0268EDD1500CC24C0 /* TSLView.m */; };
+		AD5C1E4E26930B4700556DA5 /* TSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C1E4D26930B4700556DA5 /* TSLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		AD0624D4268EABFD00CC24C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0624D5268EABFD00CC24C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD0624DD268EB3B300CC24C0 /* TSLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLKit.h; sourceTree = "<group>"; };
-		AD0624DF268EDD1500CC24C0 /* TSLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLView.h; sourceTree = "<group>"; };
-		AD0624E0268EDD1500CC24C0 /* TSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSLView.m; sourceTree = "<group>"; };
+		AD5C1E4C26930B4700556DA5 /* TSLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLView.h; sourceTree = "<group>"; };
+		AD5C1E4D26930B4700556DA5 /* TSLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,19 +84,11 @@
 		AD0624DC268EB39A00CC24C0 /* TSLKit */ = {
 			isa = PBXGroup;
 			children = (
-				AD0624DE268EDCF100CC24C0 /* View */,
+				AD5C1E4C26930B4700556DA5 /* TSLView.h */,
+				AD5C1E4D26930B4700556DA5 /* TSLView.m */,
 				AD0624DD268EB3B300CC24C0 /* TSLKit.h */,
 			);
 			path = TSLKit;
-			sourceTree = "<group>";
-		};
-		AD0624DE268EDCF100CC24C0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AD0624DF268EDD1500CC24C0 /* TSLView.h */,
-				AD0624E0268EDD1500CC24C0 /* TSLView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +162,7 @@
 			files = (
 				AD0624CB268EABF700CC24C0 /* ViewController.m in Sources */,
 				AD0624C5268EABF700CC24C0 /* AppDelegate.m in Sources */,
-				AD0624E1268EDD1500CC24C0 /* TSLView.m in Sources */,
+				AD5C1E4E26930B4700556DA5 /* TSLView.m in Sources */,
 				AD0624D6268EABFD00CC24C0 /* main.m in Sources */,
 				AD0624C8268EABF700CC24C0 /* SceneDelegate.m in Sources */,
 			);

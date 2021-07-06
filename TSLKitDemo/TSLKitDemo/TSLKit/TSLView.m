@@ -37,15 +37,14 @@
     return imageView;
 }
 
-+ (UIImageView *)getImageViewWithRadius:(CGFloat)radius withImageName:(UIImage *)image {
++ (UIImageView *)getImageViewWithImageName:(NSString *)imageName {
     UIImageView *imageView = [self getImageView];
-    imageView.layer.cornerRadius = radius;
-    imageView.image = image;
+    imageView.image = [UIImage imageNamed:imageName];
     return imageView;
 }
 
 + (UIButton *)getButtonWithTitleFont:(UIFont *)titleFont withTextColor:(UIColor *)textColor withTarget:(id)target withAction:(SEL)action {
-    UIButton *button = [self getButtonWithTarget:self withAction:action];
+    UIButton *button = [self getButtonWithTarget:target withAction:action];
     [button.titleLabel setFont:titleFont];
     [button setTitleColor:textColor forState:UIControlStateNormal];
     return button;

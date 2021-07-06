@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIImageView *)getImageView;
 
-+ (UIImageView *)getImageViewWithRadius:(CGFloat)radius withImageName:(UIImage *)image;
++ (UIImageView *)getImageViewWithImageName:(NSString *)imageName;
 
 + (UIButton *)getButtonWithTitleFont:(UIFont *)titleFont withTextColor:(UIColor *)textColor withTarget:(id)target withAction:(SEL)action;
 
